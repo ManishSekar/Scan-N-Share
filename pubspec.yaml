@@ -1,0 +1,90 @@
+name: application_login
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  lottie: ^3.3.1
+  google_fonts: ^6.1.0
+
+  upi_india: ^3.0.1
+  cloud_firestore: ^5.5.0
+  # ✅ Fixed Firebase versions
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  firebase_storage: ^12.4.5
+
+  android_intent_plus: ^4.0.3
+  url_launcher: ^6.2.5
+
+
+  image_picker: ^1.0.4
+  camera: ^0.11.1
+  permission_handler: ^12.0.0+1
+  intl: ^0.19.0
+  shared_preferences: ^2.5.3
+  qr_flutter: ^4.0.0
+  mobile_scanner: ^7.0.0
+  sticky_headers: ^0.3.0+2
+  get_storage: ^2.1.1
+  get: ^4.7.2
+
+  google_mlkit_commons: ^0.11.0
+  google_mlkit_text_recognition: ^0.15.0
+  google_mlkit_barcode_scanning: ^0.14.1
+  google_mlkit_smart_reply: ^0.13.0
+
+  path_provider: ^2.0.15
+  open_file: ^3.3.2
+  share_plus: ^11.0.0
+  file_picker: ^10.1.7  # ← Compatible with share_plus 6.3.1+
+  flutter_image_compress: ^2.1.0
+  ffi: ^2.1.3
+  tflite_flutter: ^0.11.0
+  base45: ^0.0.3
+  image: ^4.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/compressing.json
+    - assets/scan-placeholder.json
+    - assets/my_logo.jpeg
+    - assets/Animation_1.json
+    - assets/Animation_2.json
+    - assets/Animation_3.json
+    - assets/Animation_4.json
+    - assets/Animation_5.json
+    - assets/Animation_6.json
+    - assets/Animation_7.json
+    - assets/Animation_8.json
+    - assets/Animation_9.json
+    - assets/Animation_10.json
+    - assets/Animation_11.json
+    - assets/Animation_12.json
+    - assets/Animation_13.json
+    - assets/Animation_14.json
+    - assets/Animation_15.json
+    - assets/premium_animation.json
+    - assets/my_logo.png
+    - assets/b1.png
+    - assets/b2.png
+    - assets/b3.png
+    - assets/b1.jpeg
+    - assets/hi.json
+    - assets/profile.json
